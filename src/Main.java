@@ -13,7 +13,14 @@ public class Main {
         namesLinkedList.add("George");
         namesLinkedList.add("Ringo");
 
-        System.out.println(namesLinkedList.get(2));
+
+        namesLinkedList.add(1, "Jerry");
+//        System.out.println(namesLinkedList.get(1));
+
+        for(String name : namesLinkedList){
+            System.out.println(name);
+
+        }
 
         ArrayList<String> namesArrayList = new ArrayList<>();
 
@@ -22,7 +29,9 @@ public class Main {
         namesArrayList.add("George");
         namesArrayList.add("Ringo");
 
-        System.out.println(namesArrayList.get(2));
+
+        namesArrayList.add(1, "Jerry");
+//        System.out.println(namesArrayList.get(1));
 
         }
     }
